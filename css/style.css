@@ -1,0 +1,117 @@
+/* Base css */
+body{
+    background-color: 
+}
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese');
+img{
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+margin: 0 0 15px;
+font-weight: 700;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+a:hover{text-decoration: none;}
+.section-padding{
+  padding:150px 0;
+
+
+}
+.booking-area{
+    background-image: url(../img/1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.booking-text {
+    text-align: center;
+    color: #fff;
+    font-size: 40px;
+}
+
+img.set-top {
+    max-width: 400px;
+}
+
+img.set-bottom {
+    max-width: 250px;
+    margin-top: 20px; 
+}
+
+.booking-text h1 {
+    font-size: 70px;
+    margin-top: 20px;
+}
+
+.booking-area {
+    position: relative;
+    z-index: 1;
+    padding-top: 100px;
+    padding-bottom: 150px;
+}
+
+.booking-area:after, .booking-form-element:after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    content: "";
+    z-index: -1;
+    background: #000;
+    opacity: .4; 
+}
+
+.booling-form {
+    margin-top: 50px;
+}
+
+
+.booking-form-element {
+    position: relative;
+    z-index: 1;
+    font-size: 25px;
+    font-weight: 700;
+    color: #E0BE7E;
+    padding: 28px 20px;
+    
+} 
+.booking-form-element
+ label {
+    display: block;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 300;
+    color: #fff;
+    opacity: .7;
+    margin-bottom: 20px;
+}
+
+.booking-form-element
+ select {
+    width: 100%;
+    background: none;
+    border: none;
+}
+
+.booking-form-element
+ select:focus {
+    outline: none;
+}
+
+.booling-form input[type=submit] {
+    font-size: 14px;
+    background: none;
+    border: none;
+    text-transform: uppercase;
+    padding: 28px 20px;
+    font-weight: 300;
+}
